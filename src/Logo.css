@@ -1,0 +1,59 @@
+
+.logo-container {
+    position: relative;
+    width: 300px;  /* Adjust this size to match the logo's dimensions */
+    height: 300px; /* Adjust this size to match the logo's dimensions */
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #282828;
+  }
+  .logo-container::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform-origin: center;
+    pointer-events: none; 
+  }
+  
+  .span{
+    font-size: 8px;
+    color: aliceblue;
+  }
+  
+  .html {
+    color: aliceblue;
+  }
+  .and{
+    color: orange;
+  }
+
+  .inner {
+   height: 120px;
+   width: 120px;
+   border: 20px solid green;
+   background-color: #282828;
+   border-color: aquamarine rgb(197, 233, 197) rgb(225, 67, 28) blue;
+   transform: rotate(45deg);
+   transition: 1.5s;
+   display: flex;
+   justify-content: center;
+  }
+
+.inner:hover{
+    transform: rotate(360deg);
+}
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+
+
